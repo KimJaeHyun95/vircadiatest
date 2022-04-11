@@ -6,7 +6,6 @@
   var position;
 
   this.enterEntity = function (entityID) {
-    console.log("enter")
     var bellPosition = Entities.getEntityProperties(entityID).position;
     position = bellPosition;
 
