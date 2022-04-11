@@ -1,6 +1,6 @@
 (function () {
   console.log("start music");
-  var sound = SoundCache.getSound("http://192.168.0.102:3000/music.mp3");
+  var sound = SoundCache.getSound("https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/mp3/music.mp3");
   var injectorOptions;
   var injector = null;
   var position;
