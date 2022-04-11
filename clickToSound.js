@@ -1,5 +1,5 @@
 (function () {
-  var sound = SoundCache.getSound("C:\\Users\\kjh95\\OneDrive\\바탕 화면\\VircadiaExhibition\\mp3\\음성파일.mp3");
+  var sound = SoundCache.getSound("https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/mp3/soundfile.mp3");
   var injectorOptions;
   var injector = null;
   var position;
