@@ -23,7 +23,7 @@ Entities.editEntity("d8343313-71cf-4df9-8850-47231b40272e", {
 
 //천지창조 웹
 Entities.editEntity("3a933a98-c575-4235-aba5-e4cc9f4c31a4", {
-  "SourceURL": "naver.com"
+  "sourceUrl": "https://www.youtube.com/watch?v=6EV-Ovs1zi4"
 });
 
 //진주귀걸이

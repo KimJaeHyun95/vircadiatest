@@ -24,4 +24,9 @@
     console.log("leave")
     injector.stop()
   };
+
+  //상자 클릭 확인
+  this.clickDownOnEntity = function (entityID) {
+    console.log("Click Box!!!!!!!!!!!!!")
+  };
 });
