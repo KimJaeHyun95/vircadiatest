@@ -35,4 +35,5 @@ Entities.editEntity("86f8689d-4b50-4580-aa95-e3ae9aa1d6bf", {
 Entities.editEntity("001a3c3c-f04c-405e-9190-587aa4416ff4", {
   "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/explore.js"
 });
+
 console.log("Server Script Finished!");
