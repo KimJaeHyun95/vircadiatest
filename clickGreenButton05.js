@@ -1,5 +1,10 @@
+/*
+If you click on it, it is a script that lets you hear a voice about the work.
+It works when you specify it as a script for each green button.
+*/
+
 (function () {
-  var sound = SoundCache.getSound("https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/mp3/explanation03.mp3");
+  var sound = SoundCache.getSound("https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/mp3/explanation05.mp3");
   var injectorOptions;
   var injector = null;
   var position;
