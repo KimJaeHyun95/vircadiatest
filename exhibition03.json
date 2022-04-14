@@ -2,9 +2,1262 @@
   "DataVersion": 0,
   "Entities": [
     {
+    "id": "{49266b80-f5f1-45ad-9494-66212597291e}",
+    "type": "Shape",
+    "lastEdited": 1649917116531707,
+    "parentID": "{84091513-eaec-4161-ade7-d9d1c05dc130}",
+    "name": "greenbutton05",
+    "position": {
+        "x": 1.033706784248352,
+        "y": 0.00018310546875,
+        "z": -0.26378631591796875
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5000839233398438,
+        "y": -0.5000839233398438,
+        "z": 0.49993133544921875,
+        "w": 0.49987030029296875
+    },
+    "created": 1649745390993408,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 61.28684616088867,
+        "y": 1009.4566650390625,
+        "z": -4.560319423675537,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickGreenButton05.js",
+    "scriptTimestamp": 1649915330560,
+    "color": {
+        "red": 0,
+        "green": 255,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{209d4398-5a4e-45de-9ef3-13358e8eec13}",
+    "type": "Shape",
+    "lastEdited": 1649917427832858,
+    "parentID": "{84091513-eaec-4161-ade7-d9d1c05dc130}",
+    "name": "redbutton05",
+    "position": {
+        "x": 1.0336741209030151,
+        "y": -0.14630126953125,
+        "z": -0.2637672424316406
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5031967759132385,
+        "y": 0.49672698974609375,
+        "z": -0.5031967759132385,
+        "w": 0.49678802490234375
+    },
+    "created": 1649745390993408,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 61.286861419677734,
+        "y": 1009.3101806640625,
+        "z": -4.560271739959717,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickRedButton.js",
+    "scriptTimestamp": 1649917427825,
+    "color": {
+        "red": 240,
+        "green": 0,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{23c20243-d892-45e9-822e-168733cdc964}",
+    "type": "Text",
+    "lastEdited": 1649917051213100,
+    "parentID": "{18d7877b-79e8-49ec-8537-80482516244c}",
+    "visible": false,
+    "name": "text05",
+    "position": {
+        "x": 7.432745456695557,
+        "y": -0.05615234375,
+        "z": 7.107818603515625
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": 0.999969482421875,
+        "z": 0.0000152587890625,
+        "w": -0.007339596748352051
+    },
+    "created": 1649750222831616,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 60.533287048339844,
+        "y": 1008.439208984375,
+        "z": -4.560315132141113,
+        "scale": 2.1376953125
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "text": "Text",
+    "lineHeight": 0.05999999865889549,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{84091513-eaec-4161-ade7-d9d1c05dc130}",
+    "type": "Image",
+    "lastEdited": 1649917116531707,
+    "parentID": "{23c20243-d892-45e9-822e-168733cdc964}",
+    "name": "img05",
+    "position": {
+        "x": 0.000012814998626708984,
+        "y": 0,
+        "z": -0.000011444091796875
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000152587890625,
+        "y": 0.0000152587890625,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1649741498679296,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 60.533287048339844,
+        "y": 1008.439208984375,
+        "z": -4.560315132141113,
+        "scale": 2.1376953125
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "collisionless": true,
+    "ignoreForCollisions": true,
+    "imageURL": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img05.jpg",
+    "keepAspectRatio": false,
+    "textures": {
+        "tex.picture": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img05.jpg"
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{0813ded8-412a-4c75-9161-365ea6f7c797}",
+    "type": "Shape",
+    "lastEdited": 1649917409910102,
+    "parentID": "{d0fe7b6a-dadc-446a-a00e-5832cd228a07}",
+    "name": "redbutton01",
+    "position": {
+        "x": -1.156332015991211,
+        "y": -0.14654541015625,
+        "z": -0.00009918212890625
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5012741088867188,
+        "y": 0.49871063232421875,
+        "z": -0.5013046264648438,
+        "w": 0.49874114990234375
+    },
+    "created": 1649744854122496,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 74.65660858154297,
+        "y": 1009.310302734375,
+        "z": -18.12385368347168,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickRedButton.js",
+    "scriptTimestamp": 1649917409900,
+    "color": {
+        "red": 240,
+        "green": 0,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{6c76f9bb-bbee-497b-8626-1629dfb3c336}",
+    "type": "Shape",
+    "lastEdited": 1649917077593921,
+    "parentID": "{d0fe7b6a-dadc-446a-a00e-5832cd228a07}",
+    "name": "greenbutton01",
+    "position": {
+        "x": -1.156337022781372,
+        "y": -0.00006103515625,
+        "z": -0.00006866455078125
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5000534057617188,
+        "y": -0.5000534057617188,
+        "z": 0.49996185302734375,
+        "w": 0.49990081787109375
+    },
+    "created": 1649744719904768,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 74.65664672851562,
+        "y": 1009.456787109375,
+        "z": -18.123865127563477,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickGreenButton01.js",
+    "scriptTimestamp": 1649747427328,
+    "color": {
+        "red": 0,
+        "green": 255,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{7bc3afe5-c409-42f9-9907-7d67c89716c0}",
+    "type": "Text",
+    "lastEdited": 1649917407664240,
+    "parentID": "{18d7877b-79e8-49ec-8537-80482516244c}",
+    "name": "text01",
+    "position": {
+        "x": -8.511366844177246,
+        "y": -0.05426025390625,
+        "z": -5.765632629394531
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": 0.006851315498352051,
+        "z": -0.0000457763671875,
+        "w": 0.999969482421875
+    },
+    "created": 1649750491267072,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 73.63932800292969,
+        "y": 1008.4393310546875,
+        "z": -20.297487258911133,
+        "scale": 2.26031494140625
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "text": "Text",
+    "lineHeight": 0.05999999865889549,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{d0fe7b6a-dadc-446a-a00e-5832cd228a07}",
+    "type": "Image",
+    "lastEdited": 1649917407663887,
+    "parentID": "{7bc3afe5-c409-42f9-9907-7d67c89716c0}",
+    "visible": false,
+    "name": "img01",
+    "position": {
+        "x": -0.000003427267074584961,
+        "y": 0,
+        "z": 0
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000762939453125,
+        "y": 0.999969482421875,
+        "z": 0.0000457763671875,
+        "w": -0.0005340576171875
+    },
+    "created": 1649741230243840,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 73.63932800292969,
+        "y": 1008.4393310546875,
+        "z": -20.297487258911133,
+        "scale": 2.2603092193603516
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "collisionless": true,
+    "ignoreForCollisions": true,
+    "imageURL": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img01.jpg",
+    "keepAspectRatio": false,
+    "textures": {
+        "tex.picture": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img01.jpg"
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{55716ac0-c749-47bf-a125-4e2afe27aea0}",
+    "type": "Text",
+    "lastEdited": 1649915838383601,
+    "parentID": "{18d7877b-79e8-49ec-8537-80482516244c}",
+    "name": "survey",
+    "userData": "{\"useConfirmDialog\":true,\"confirmDialogMessage\":\"Are you sure you want to open this link?\",\"url\":\"https://forms.gle/p2jqEcoc8dBnY2aa9\",\"openIn\":\"popUp\",\"dimensions\":{\"width\":800,\"height\":600}}",
+    "position": {
+        "x": -13.395559310913086,
+        "y": 0.0462646484375,
+        "z": -4.2980194091796875
+    },
+    "dimensions": {
+        "x": 2.167506217956543,
+        "y": 0.4012642502784729,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": 0.0003509521484375,
+        "y": 0.7122453451156616,
+        "z": -0.0000152587890625,
+        "w": 0.7018997669219971
+    },
+    "created": 1649745659428864,
+    "lastEditedBy": "{0af7611a-1b8f-40d4-9e51-5ac056fb76fc}",
+    "queryAACube": {
+        "x": 72.20204162597656,
+        "y": 1008.4982299804688,
+        "z": -25.24419593811035,
+        "scale": 2.2043585777282715
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://vircadia-content-public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js",
+    "text": "Click To Survey",
+    "lineHeight": 0.34700000286102295,
+    "textColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0
+    },
+    "backgroundAlpha": 0,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{cddb1da9-6f3f-43c8-a7e9-81cf5ac15d37}",
+    "type": "Shape",
+    "lastEdited": 1649917422837049,
+    "parentID": "{79abaade-d5a2-43ad-975d-64b0ca980f3f}",
+    "name": "redbutton03",
+    "position": {
+        "x": -1.014268398284912,
+        "y": -0.14654541015625,
+        "z": 0.00220489501953125
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5037155747413635,
+        "y": 0.49626922607421875,
+        "z": -0.5037155747413635,
+        "w": 0.49629974365234375
+    },
+    "created": 1649745122557952,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 71.15897369384766,
+        "y": 1009.3104858398438,
+        "z": -8.162354469299316,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickRedButton.js",
+    "scriptTimestamp": 1649917422828,
+    "color": {
+        "red": 240,
+        "green": 0,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{a7e2b26d-8f6a-4be2-9d37-680144484aa4}",
+    "type": "Shape",
+    "lastEdited": 1649917096053963,
+    "parentID": "{79abaade-d5a2-43ad-975d-64b0ca980f3f}",
+    "name": "greenbutton03",
+    "position": {
+        "x": -1.0142792463302612,
+        "y": -0.00006103515625,
+        "z": 0.002197265625
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5000534057617188,
+        "y": -0.5000534057617188,
+        "z": 0.49996185302734375,
+        "w": 0.49990081787109375
+    },
+    "created": 1649745256775680,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 71.15897369384766,
+        "y": 1009.4569702148438,
+        "z": -8.162359237670898,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickGreenButton03.js",
+    "scriptTimestamp": 1649813880832,
+    "color": {
+        "red": 0,
+        "green": 255,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{1b84034d-95d2-4709-a050-26cbdd580cf2}",
+    "type": "Shape",
+    "lastEdited": 1649917425998121,
+    "parentID": "{37ded20d-44b4-4772-965a-98b5e9e81366}",
+    "name": "redbutton04",
+    "position": {
+        "x": 1.0445431470870972,
+        "y": -0.14642333984375,
+        "z": -0.02202606201171875
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5025863647460938,
+        "y": 0.49733734130859375,
+        "z": 0.5024642944335938,
+        "w": -0.497550904750824
+    },
+    "created": 1649745256775680,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 71.17854309082031,
+        "y": 1009.3102416992188,
+        "z": -3.9869277477264404,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickRedButton.js",
+    "scriptTimestamp": 1649917425990,
+    "color": {
+        "red": 240,
+        "green": 0,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{13219d6c-bac4-497e-a82c-20408fe832ee}",
+    "type": "Shape",
+    "lastEdited": 1649917061571341,
+    "parentID": "{37ded20d-44b4-4772-965a-98b5e9e81366}",
+    "name": "greenbutton04",
+    "position": {
+        "x": 1.0445359945297241,
+        "y": 0.00006103515625,
+        "z": -0.0220184326171875
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": 0.49999237060546875,
+        "y": 0.49999237060546875,
+        "z": 0.49999237060546875,
+        "w": 0.49993133544921875
+    },
+    "created": 1649745256775680,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 71.17855072021484,
+        "y": 1009.4567260742188,
+        "z": -3.9869229793548584,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickGreenButton04.js",
+    "scriptTimestamp": 1649813880832,
+    "color": {
+        "red": 0,
+        "green": 255,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{242301d3-5982-40ee-9039-07cc02ffffe6}",
+    "type": "Shape",
+    "lastEdited": 1649917406555600,
+    "parentID": "{3b1ee21e-5af3-4ad7-9b5f-8b4db6d9dce7}",
+    "name": "redbutton02",
+    "position": {
+        "x": -1.076379656791687,
+        "y": -0.14642333984375,
+        "z": -0.0000152587890625
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5020675659179688,
+        "y": 0.49788665771484375,
+        "z": -0.5020675659179688,
+        "w": 0.49791717529296875
+    },
+    "created": 1649744988340224,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 74.65667724609375,
+        "y": 1009.3104248046875,
+        "z": -14.872912406921387,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickRedButton.js",
+    "scriptTimestamp": 1649917406545,
+    "color": {
+        "red": 240,
+        "green": 0,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{28b34d68-4509-4531-baf2-386bdaf6192a}",
+    "type": "Shape",
+    "lastEdited": 1649917072914364,
+    "parentID": "{3b1ee21e-5af3-4ad7-9b5f-8b4db6d9dce7}",
+    "name": "greenbutton02",
+    "position": {
+        "x": -1.0763903856277466,
+        "y": -0.00006103515625,
+        "z": -0.00017547607421875
+    },
+    "dimensions": {
+        "x": 0.05000000074505806,
+        "y": 0.05000000074505806,
+        "z": 0.05000000074505806
+    },
+    "rotation": {
+        "x": -0.5000534057617188,
+        "y": -0.5000534057617188,
+        "z": 0.49999237060546875,
+        "w": 0.49993133544921875
+    },
+    "created": 1649744988340224,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 74.65653228759766,
+        "y": 1009.456787109375,
+        "z": -14.872917175292969,
+        "scale": 0.08660253882408142
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "script": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/clickGreenButton02.js",
+    "scriptTimestamp": 1649813880832,
+    "color": {
+        "red": 0,
+        "green": 255,
+        "blue": 0
+    },
+    "shape": "Cylinder",
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{37ded20d-44b4-4772-965a-98b5e9e81366}",
+    "type": "Image",
+    "lastEdited": 1649917432092923,
+    "parentID": "{c397d4de-08f8-4c57-b612-2c32e717f421}",
+    "visible": false,
+    "name": "img04",
+    "position": {
+        "x": 0.000006586313247680664,
+        "y": 0,
+        "z": 0.0000152587890625
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": 0.0000457763671875,
+        "y": 0.0001068115234375,
+        "z": -0.0000152587890625,
+        "w": 1
+    },
+    "created": 1649741498679296,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 70.13931274414062,
+        "y": 1008.4393310546875,
+        "z": -6.048822402954102,
+        "scale": 2.14849853515625
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "collisionless": true,
+    "ignoreForCollisions": true,
+    "imageURL": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img04.jpg",
+    "keepAspectRatio": false,
+    "textures": {
+        "tex.picture": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img04.jpg"
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{79abaade-d5a2-43ad-975d-64b0ca980f3f}",
+    "type": "Image",
+    "lastEdited": 1649917430594130,
+    "parentID": "{25179d2a-ef85-4ef6-9de7-19639d3f0cb5}",
+    "visible": false,
+    "name": "img03",
+    "position": {
+        "x": -0.00002002716064453125,
+        "y": 0.00018310546875,
+        "z": 0
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000762939453125,
+        "y": 1,
+        "z": 0.0000457763671875,
+        "w": -0.0003204345703125
+    },
+    "created": 1649741364461568,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 70.13932800292969,
+        "y": 1008.4395141601562,
+        "z": -10.193997383117676,
+        "scale": 2.1213438510894775
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "collisionless": true,
+    "ignoreForCollisions": true,
+    "imageURL": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img03.jpg",
+    "keepAspectRatio": false,
+    "textures": {
+        "tex.picture": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img03.jpg"
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{c397d4de-08f8-4c57-b612-2c32e717f421}",
+    "type": "Text",
+    "lastEdited": 1649917432093182,
+    "parentID": "{18d7877b-79e8-49ec-8537-80482516244c}",
+    "name": "text04",
+    "position": {
+        "x": 5.787107467651367,
+        "y": -0.05517578125,
+        "z": -2.4750900268554688
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": 0.007156491279602051,
+        "z": -0.0000457763671875,
+        "w": 0.999969482421875
+    },
+    "created": 1649750357049344,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 70.13931274414062,
+        "y": 1008.4393310546875,
+        "z": -6.048829078674316,
+        "scale": 2.148505210876465
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "text": "Text",
+    "lineHeight": 0.05999999865889549,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{25179d2a-ef85-4ef6-9de7-19639d3f0cb5}",
+    "type": "Text",
+    "lastEdited": 1649917430594370,
+    "parentID": "{18d7877b-79e8-49ec-8537-80482516244c}",
+    "name": "text03",
+    "position": {
+        "x": 1.6424057483673096,
+        "y": -0.05499267578125,
+        "z": -2.4142684936523438
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": 0.007064938545227051,
+        "z": -0.0000457763671875,
+        "w": 0.999969482421875
+    },
+    "created": 1649750491267072,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 70.13932800292969,
+        "y": 1008.4393310546875,
+        "z": -10.193997383117676,
+        "scale": 2.12152099609375
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "text": "Text",
+    "lineHeight": 0.05999999865889549,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{3b1ee21e-5af3-4ad7-9b5f-8b4db6d9dce7}",
+    "type": "Image",
+    "lastEdited": 1649917411874709,
+    "parentID": "{dfa4dfa7-7165-47c7-acad-3f684d9bb925}",
+    "name": "img02",
+    "position": {
+        "x": 0.000023379921913146973,
+        "y": 0,
+        "z": 0.000030517578125
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000762939453125,
+        "y": 1,
+        "z": 0.0000457763671875,
+        "w": -0.0002899169921875
+    },
+    "created": 1649741230243840,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 73.63931274414062,
+        "y": 1008.4393310546875,
+        "z": -16.96666717529297,
+        "scale": 2.180356979370117
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "collisionless": true,
+    "ignoreForCollisions": true,
+    "imageURL": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img02.jpg",
+    "keepAspectRatio": false,
+    "textures": {
+        "tex.picture": "https://raw.githubusercontent.com/KimJaeHyun95/vircadiatest/main/img/img02.jpg"
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
+    "id": "{dfa4dfa7-7165-47c7-acad-3f684d9bb925}",
+    "type": "Text",
+    "lastEdited": 1649917411875007,
+    "parentID": "{18d7877b-79e8-49ec-8537-80482516244c}",
+    "visible": false,
+    "name": "text02",
+    "position": {
+        "x": -5.180932998657227,
+        "y": -0.05438232421875,
+        "z": -5.814521789550781
+    },
+    "dimensions": {
+        "x": 1.5,
+        "y": 1.5,
+        "z": 0.009999999776482582
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": 0.007064938545227051,
+        "z": -0.0000457763671875,
+        "w": 0.999969482421875
+    },
+    "created": 1649750491267072,
+    "lastEditedBy": "{c0853d20-e58e-47dd-a2de-6c8538348255}",
+    "queryAACube": {
+        "x": 73.63931274414062,
+        "y": 1008.4393310546875,
+        "z": -16.966690063476562,
+        "scale": 2.180379867553711
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "text": "Text",
+    "lineHeight": 0.05999999865889549,
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+},
+    {
     "id": "{18d7877b-79e8-49ec-8537-80482516244c}",
     "type": "Model",
-    "lastEdited": 1649915838396141,
+    "lastEdited": 1649918501776433,
     "name": "house",
     "dimensions": {
         "x": 47.9232063293457,
@@ -18,7 +1271,7 @@
         "w": 0.7018997669219971
     },
     "created": 1649738680107008,
-    "lastEditedBy": "{0af7611a-1b8f-40d4-9e51-5ac056fb76fc}",
+    "lastEditedBy": "{3b4840c3-b148-4caf-a415-9ada675ec19c}",
     "queryAACube": {
         "x": -27.239103317260742,
         "y": -27.239103317260742,
@@ -55,6 +1308,6 @@
     "isFacingAvatar": false
 }
     ],
-  "Id": "{5e7955ee-9075-4686-ac33-151079193dae}",
+  "Id": "{70788b6b-a084-4d39-8eef-8766e0b8889f}",
   "Version": 133
 }
