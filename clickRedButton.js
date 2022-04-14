@@ -5,20 +5,22 @@ It works when you specify it as a script for each green button.
 
 (function () {
   this.clickDownOnEntity = function (entityID) {
-    var properties = Entities.getEntityProperties("d0fe7b6a-dadc-446a-a00e-5832cd228a07");
-    if (properties.visible) {
-      Entities.editEntity('d0fe7b6a-dadc-446a-a00e-5832cd228a07', {
+    var imgID = Entities.getEntityProperties(entityID, ["parentID"]).parentID
+    var textID = Entities.getEntityProperties(imgID, ["parentID"]).parentID
+    var imgProperties = Entities.getEntityProperties(imgID);
+    if (imgProperties.visible) {
+      Entities.editEntity(imgID, {
         visible: false
       });
-      Entities.editEntity('7bc3afe5-c409-42f9-9907-7d67c89716c0', {
+      Entities.editEntity(textID, {
         visible: true
       });
     }
     else {
-      Entities.editEntity('d0fe7b6a-dadc-446a-a00e-5832cd228a07', {
+      Entities.editEntity(imgID, {
         visible: true
       });
-      Entities.editEntity('7bc3afe5-c409-42f9-9907-7d67c89716c0', {
+      Entities.editEntity(textID, {
         visible: false
       });
     }
