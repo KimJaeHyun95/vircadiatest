@@ -1,0 +1,60 @@
+{
+  "DataVersion": 0,
+  "Entities": [
+    {
+    "id": "{18d7877b-79e8-49ec-8537-80482516244c}",
+    "type": "Model",
+    "lastEdited": 1649915838396141,
+    "name": "house",
+    "dimensions": {
+        "x": 47.9232063293457,
+        "y": 14.939056396484375,
+        "z": 21.16756820678711
+    },
+    "rotation": {
+        "x": -0.0000457763671875,
+        "y": -0.7122758626937866,
+        "z": -0.0000152587890625,
+        "w": 0.7018997669219971
+    },
+    "created": 1649738680107008,
+    "lastEditedBy": "{0af7611a-1b8f-40d4-9e51-5ac056fb76fc}",
+    "queryAACube": {
+        "x": -27.239103317260742,
+        "y": -27.239103317260742,
+        "z": -27.239103317260742,
+        "scale": 54.478206634521484
+    },
+    "grab": {
+        "grabbable": false,
+        "equippableLeftRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        },
+        "equippableRightRotation": {
+            "x": -0.0000152587890625,
+            "y": -0.0000152587890625,
+            "z": -0.0000152587890625,
+            "w": 1
+        }
+    },
+    "damping": 0,
+    "angularDamping": 0,
+    "shapeType": "static-mesh",
+    "modelURL": "https://bas-skyspace.ams3.digitaloceanspaces.com/CommunityVillage/House2.fbx?5",
+    "blendshapeCoefficients": "{\n}\n",
+    "animation": {
+        "allowTranslation": false
+    },
+    "clientOnly": false,
+    "avatarEntity": false,
+    "localEntity": false,
+    "faceCamera": false,
+    "isFacingAvatar": false
+}
+    ],
+  "Id": "{5e7955ee-9075-4686-ac33-151079193dae}",
+  "Version": 133
+}
