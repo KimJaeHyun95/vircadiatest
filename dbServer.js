@@ -17,21 +17,20 @@ function settingDomain(error, response) {
   console.log("error:", error);
   console.log('---------------------');
   console.log(JSON.stringify(response));
-  for (var item in response) {
-    entityID = Entities.findEntitiesByName(response[item].entityName, MyAvatar.position, 500, false)[0];
-    if (response[item].type == "01") {
+
+  response.forEach(function (value, index) {
+    entityID = Entities.findEntitiesByName(value.entityName, MyAvatar.position, 500, false)[0];
+    if (value.type == "01") {
       Entities.editEntity(entityID, {
-        imageURL: response[item].imgUrl
+        imageURL: value.imgUrl
       });
     }
     else {
-      console.log("@#44423423")
       Entities.editEntity(entityID, {
-        text: response[item].text
+        text: value.text
       });
-
     }
-  }
+  });
   // var entityIDs = Entities.findEntitiesByName("img01", MyAvatar.position, 500, false);
   // console.log(entityIDs)
 }
