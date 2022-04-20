@@ -51,12 +51,12 @@
 
     if (xCoordinate == 1 && yCoordinate == 1) {
       console.log("exhibition1")
-      destination = "hifi://106.255.247.90:40102/0,0,0/0,0,0,1"
+      destination = "hifi://106.255.247.90:40102/41,1001,31/0,0,0,1"
       Window.location = destination;
     }
     if (xCoordinate == 2 && yCoordinate == 1) {
       console.log("exhibition2")
-      destination = "hifi://106.255.247.90:40102/1000,0,0/0,0,0,1"
+      destination = "hifi://106.255.247.90:40102/1041,1001,31/0,0,0,1"
       Window.location = destination;
     }
     if (xCoordinate == 3 && yCoordinate == 1) {
