@@ -14,7 +14,7 @@ It works when you specify it as a script for each green button.
     injectorOptions = {
       position: position,
       volume: 0.5,
-      local: false
+      localOnly: true
     };
 
     injector = Audio.playSound(sound, injectorOptions);
