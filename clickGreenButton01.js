@@ -13,7 +13,8 @@ It works when you specify it as a script for each green button.
     position = MyAvatar.position;
     injectorOptions = {
       position: position,
-      volume: 0.5
+      volume: 0.5,
+      local: false
     };
 
     injector = Audio.playSound(sound, injectorOptions);
